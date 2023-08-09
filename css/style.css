@@ -1,0 +1,142 @@
+body {
+    font-family: "Outfit", cursive;
+    font-size: 18px;
+    background: hsl(217, 54%, 11%);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: hsl(213, 19%, 56%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;   
+    height: 697px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 0px 10px 70px hsla(226, 81%, 6%, 0.986);
+}
+
+.imagem-produto {
+    width: 360px;
+    border-radius: 10px;
+}
+
+.div-img-prod {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding-top: 350px;
+
+}
+
+.descricao .titulo {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 23px;
+    padding-bottom: 30px;
+}
+
+.descricao .descricao-prod {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.avatar {
+    width: 34px;
+    border-radius: 360px;
+    margin: 10px;
+    border: 2px solid #fff;
+}
+
+.criador {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.criador strong a {
+    color: hsl(0, 4%, 80%);
+    text-decoration: none;
+}
+
+.artist-name {
+    padding-left: 4px;
+    color: hsl(0, 4%, 80%);
+}
+
+.detalhes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.tempo {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.tempo img{
+    padding: 5px;
+}
+
+.preco img {
+    padding: 10px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.linha {
+    width: 100%;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 20px;
+}
+
+.attribution {
+    color: hsl(213, 19%, 56%);
+}
+
+.attribution a {
+    color: hsl(0, 4%, 80%);
+}
