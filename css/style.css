@@ -26,12 +26,13 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;   
+    width: 400px;
     height: 697px;
     background: hsl(216, 50%, 16%);
     border-radius: 20px;
     box-shadow: 0px 10px 70px hsla(226, 81%, 6%, 0.986);
 }
+
 
 .imagem-produto {
     width: 360px;
@@ -43,8 +44,32 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-
 }
+
+.div-img-prod div {
+    background-color: hsl(187, 100%, 50%);    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 384px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.view:hover {
+    opacity: 0.7;
+}
+
+.view img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .textos {
     display: flex;
@@ -56,11 +81,16 @@ p {
 
 }
 
-.descricao .titulo {
+.descricao .titulo a {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
     font-size: 23px;
     padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.descricao .titulo a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .descricao .descricao-prod {
@@ -93,9 +123,13 @@ p {
     text-decoration: none;
 }
 
-.artist-name {
+.artist-name a {
     padding-left: 4px;
     color: hsl(0, 4%, 80%);
+}
+
+.artist-name a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .detalhes {
@@ -112,7 +146,7 @@ p {
     font-size: 14px;
 }
 
-.tempo img{
+.tempo img {
     padding: 5px;
 }
 
